@@ -1,11 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Медицинский центр</title>
 </head>
-<body>
-    
+<body class="bg-white font-sans">
+
+  <!-- Header -->
+  <header class="border-b">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+      <div class="flex items-center gap-10">
+        <img src="./logo.svg" alt="logo" class="h-12">
+
+        <div>
+          <h3 class="text-[#0066A1] font-semibold text-lg">
+            8 (495) 926-06-03
+          </h3>
+          <p class="text-green-500 text-sm">Whatsapp</p>
+        </div>
+
+        <div>
+          <p class="text-gray-700 text-sm">info@gormedcentre.ru</p>
+          <a href="#" class="text-gray-500 text-sm">Заказать звонок</a>
+        </div>
+
+        <div class="text-gray-700 text-sm">
+          г. Мытищи,<br>
+          ул.Рождественская, д.7
+        </div>
+
+        <div class="text-gray-700 text-sm">
+          Ежедневно<br>
+          с 9:00 до 21:00
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <button class="bg-cyan-500 w-12 h-12 rounded flex items-center justify-center text-white text-xl">
+          🔍
+        </button>
+
+        <button class="bg-gray-100 px-6 py-3 rounded font-medium">
+          Личный кабинет
+        </button>
+
+        <button class="bg-[#005B8F] text-white px-6 py-3 rounded font-medium">
+          Запись на приём
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Menu -->
+    <nav class="max-w-7xl mx-auto px-6 py-4 flex gap-10 text-gray-700 font-medium">
+      <a href="#">Page 1</a>
+      <a href="#">Page 2</a>
+      <a href="#">Page 3</a>
+      <a href="#">Page 4</a>
+      <a href="#">Page 5</a>
+      <a href="#">О центре</a>
+      <a href="#">Детство</a>
+      <a href="#">Контакты</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-[#EEF4F7]">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <!-- Breadcrumb -->
+      <div class="py-8 text-gray-500 text-sm flex gap-3">
+        <span>Главная</span>
+        <span>/</span>
+        <span>Направления</span>
+        <span>/</span>
+        <span>Косметология</span>
+      </div>
+
+      <div class="flex items-center justify-between">
+
+        <!-- Text -->
+        <div class="max-w-lg">
+
+          <h4 class="text-[#0099CC] font-semibold text-2xl mb-8">
+            Косметология
+          </h4>
+
+          <h1 class="text-6xl font-semibold leading-tight mb-6">
+            Первичный приём <br>
+            врача-косметолога
+          </h1>
+
+          <div class="text-6xl font-medium mb-10">
+            2 500 ₽
+          </div>
+
+          <button class="bg-cyan-500 hover:bg-cyan-600 text-white px-12 py-4 rounded text-xl">
+            Записаться
+          </button>
+
+        </div>
+
+        <!-- Image -->
+        <div>
+          <img src="./imgrauf/a350c708de410c9f19b3ec497d12e05a4b081924.png" alt="" class="h-[650px] object-cover">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Statistics -->
+  <section class="bg-white py-8">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="bg-[#EEF4F7] rounded-lg py-14 px-10">
+
+        <div class="grid grid-cols-4 gap-10">
+
+          <div>
+            <div class="text-cyan-500 text-7xl font-bold mb-4">+</div>
+            <h3 class="text-blue-600 text-4xl font-bold mb-2">&gt;10</h3>
+            <p class="text-gray-600">
+              лет заботы о вашем здоровье
+            </p>
+          </div>
+
+          <div>
+            <div class="text-cyan-500 text-7xl font-bold mb-4">+</div>
+            <h3 class="text-blue-600 text-4xl font-bold mb-2">150</h3>
+            <p class="text-gray-600">
+              квалифицированных специалистов
+            </p>
+          </div>
+
+          <div>
+            <div class="text-cyan-500 text-7xl font-bold mb-4">+</div>
+            <h3 class="text-blue-600 text-4xl font-bold mb-2">3 000</h3>
+            <p class="text-gray-600">
+              медицинских услуг по всем направлениям
+            </p>
+          </div>
+
+          <div>
+            <div class="text-cyan-500 text-7xl font-bold mb-4">+</div>
+            <h3 class="text-blue-600 text-4xl font-bold mb-2">
+              День в день
+            </h3>
+            <p class="text-gray-600">
+              приём врача любой специальности в день обращения
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
 </body>
 </html>
